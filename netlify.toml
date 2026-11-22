@@ -1,0 +1,4 @@
+[build]
+  base = "threadtracker"
+  command = "npm run build"
+  publish = ".next"
