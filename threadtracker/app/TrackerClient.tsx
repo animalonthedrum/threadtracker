@@ -322,8 +322,8 @@ export default function Home({ initialCards, initialError }: HomeProps) {
                       >
                         <td className="px-4 py-4">
                           {isPulled ? (
-                            <span className="inline-flex items-center gap-1.5 border border-[#B9954D]/50 bg-[#B9954D]/10 px-2 py-1 text-[9px] font-black tracking-wider text-[#E3C778]">
-                              <CheckCircle2 className="h-3 w-3" />
+                            <span className="inline-flex items-center gap-2 rounded-md border-2 border-emerald-400/70 bg-emerald-500/20 px-3 py-2 text-sm font-extrabold tracking-wider text-emerald-300 shadow-[0_0_14px_rgba(16,185,129,0.16)]">
+                              <CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-300" />
                               PULLED
                             </span>
                           ) : (
