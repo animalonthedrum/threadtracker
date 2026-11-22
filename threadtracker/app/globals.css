@@ -7,6 +7,9 @@
 .nl-wrap {
   display: none;
 }
+#nl-badge-frame {
+  display: none;
+}
 
 @theme inline {
   --color-background: var(--background);
