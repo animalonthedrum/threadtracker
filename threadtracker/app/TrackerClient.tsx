@@ -130,12 +130,6 @@ export default function Home({ initialCards, initialError }: HomeProps) {
               </div>
             </div>
           </a>
-
-          <nav className="flex items-center gap-5 text-[18px] font-black italic tracking-wider text-[#D8D2C5] sm:gap-8">
-            <a href="#checklist" className="transition hover:text-[#E5C46E]">
-              CHECKLIST
-            </a>
-          </nav>
         </header>
 
         {/* HERO */}
@@ -198,7 +192,7 @@ export default function Home({ initialCards, initialError }: HomeProps) {
             <div>
               <div className="mb-3 inline-block -skew-x-12 bg-gradient-to-r from-[#F1D47D] to-[#B58A32] px-5 py-2">
                 <span className="block skew-x-12 text-[11px] font-black italic tracking-wider text-[#17130C]">
-                  THE MASTER CHECKLIST
+                  THE CHECKLIST
                 </span>
               </div>
               <h2 className="text-3xl font-black italic leading-tight tracking-tight sm:text-5xl">
