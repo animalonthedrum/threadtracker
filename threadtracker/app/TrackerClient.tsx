@@ -469,6 +469,9 @@ export default function Home({ initialCards, initialError }: HomeProps) {
             checklist, bringing collectors together to follow the hunt,
             document confirmed pulls, and see what is still out there.
           </p>
+          <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-[#969187]">
+            Something missing? Pulled a premier patch yourself? Have a suggestion? Please send an email to <a href="mailto:brett@holofamecards.com">brett@holofamecards.com</a>
+          </p>
         </section>
 
         {/* FOOTER */}
@@ -482,7 +485,7 @@ export default function Home({ initialCards, initialError }: HomeProps) {
             </div>
           </div>
           <p className="text-[10px] text-[#77736B]">
-            An independent collector tracking project. Not affiliated with Topps, the NFL or any other entity.
+            An independent collector tracking project. Not affiliated with Topps, the NFL or any other entity. <a href="mailto:brett@holofamecards.com">CONTACT</a>
           </p>
           <a
             href="https://ko-fi.com/threadtracker"
