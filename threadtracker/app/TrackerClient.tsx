@@ -400,7 +400,7 @@ export default function Home({ initialCards, initialError }: HomeProps) {
         </section>
 
         {/* RECENT HITS */}
-        <section id="recent-hits" className="mb-16 scroll-mt-6">
+        {/* <section id="recent-hits" className="mb-16 scroll-mt-6">
           <div className="mb-6 flex items-end justify-between">
             <div>
               <div className="mb-2 flex items-center gap-2">
@@ -451,7 +451,7 @@ export default function Home({ initialCards, initialError }: HomeProps) {
               No confirmed pulls yet. The first hit is waiting to be found.
             </div>
           )}
-        </section>
+        </section> */}
 
         {/* ABOUT */}
         <section
