@@ -134,17 +134,19 @@ export default function Home({ initialCards, initialError }: HomeProps) {
 
         {/* HERO */}
         <section className="relative overflow-hidden border border-[#B48C3C] bg-[#111112] shadow-[0_20px_80px_rgba(0,0,0,.65)]">
-
           <div className="relative px-4 pb-7 pt-9 sm:px-10 sm:pb-9 sm:pt-12">
             <div className="w-full overflow-hidden">
-              <img
-                 src="/hero.png"
-                alt="PREM1ERE 2026 Topps Chrome Football Premier Patch"
-                className="block h-auto w-full"
-                />
-            </div>
-                                    {/* Stats strip */}
-            <div className="relative mx-auto grid max-w-[1050px] grid-cols-3 border-y border-[#B89447]/60 py-5 sm:mt-2 sm:py-7">
+              <div className="flex">
+                <nav className="flex flex-wrap items-center gap-3 text-sm font-bold tracking-wider text-[#B9A77D] sm:gap-5">
+                  <a
+                    href="#checklist"
+                    className="transition hover:text-[#E6C979]"
+                  >
+                    CHECKLIST
+                  </a>
+                </nav>
+              </div>
+                 <div className="relative mx-auto grid max-w-[1050px] grid-cols-3 border-y border-[#B89447]/60 py-5 sm:mt-2 sm:py-7">
               <div className="text-center">
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-3xl font-black italic tabular-nums text-[#E6C46E] sm:text-5xl">
@@ -183,6 +185,12 @@ export default function Home({ initialCards, initialError }: HomeProps) {
                 </div>
               </div>
             </div>
+              <img
+                 src="/hero.png"
+                alt="PREM1ERE 2026 Topps Chrome Football Premier Patch"
+                className="block h-auto w-full"
+                />
+            </div>
           </div>
         </section>
 
@@ -200,7 +208,7 @@ export default function Home({ initialCards, initialError }: HomeProps) {
                 <span className="text-[#D5AC50]"> IS ON.</span>
               </h2>
               <p className="mt-2 text-sm text-[#99958B]">
-                Follow every 2026 Topps Chrome Football Premier Patch.
+                2026 Topps Chrome Football Premier Patch.
               </p>
             </div>
 
